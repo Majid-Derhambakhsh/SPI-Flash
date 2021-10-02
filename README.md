@@ -1,6 +1,10 @@
 # SPI-Flash
 The SPI Flash library to use the serial flash memories in MCU
 
+```diff  
+- Notice : This library has not free in this time
+```
+
 ## Release
 - #### Version : 0.0.0
 
