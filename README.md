@@ -42,9 +42,9 @@ uint8_t SPI_Flash_WriteEnable(SPI_Flash_TypeDef *_flash);
 uint8_t SPI_Flash_WriteDisable(SPI_Flash_TypeDef *_flash);
 
 /* :::::::::::::::::: Flash Registers :::::::::::::::::: */
-uint8_t SPI_Flash_ReadStatusRegister(SPI_Flash_TypeDef *_flash, SPI_FlashReg_TypeDef _register);
+uint8_t SPI_Flash_ReadStatusRegister(SPI_Flash_TypeDef *_flash, SPI_Flash_RegTypeDef _register);
 
-uint8_t SPI_Flash_WriteStatusRegister(SPI_Flash_TypeDef *_flash, SPI_FlashReg_TypeDef _register, uint8_t _data);
+uint8_t SPI_Flash_WriteStatusRegister(SPI_Flash_TypeDef *_flash, SPI_Flash_RegTypeDef _register, uint8_t _data);
 
 /* :::::::::::::::::::: Flash Status ::::::::::::::::::: */
 uint8_t SPI_Flash_WaitForWriteEnd(SPI_Flash_TypeDef *_flash);
